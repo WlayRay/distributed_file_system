@@ -1,0 +1,30 @@
+[2024-02-25 12:41:36]--[src_cgi/myfiles_cgi.c:40]--mysql:[user=root,pwd=123456,database=cloud_disk][2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:496]--cmd = count
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "token": "abf6bff7b3f2d21618b44e5ee3df5640",
+    "user": "kevin_666"
+}
+
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:176]--line = 1
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:496]--cmd = normal
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:528]--buf = {
+    "count": 1,
+    "start": 0,
+    "token": "abf6bff7b3f2d21618b44e5ee3df5640",
+    "user": "kevin_666"
+}
+
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:548]--user = kevin_666, token = abf6bff7b3f2d21618b44e5ee3df5640, start = 0, count = 1
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:306]--select user_file_list.*, file_info.url, file_info.size, file_info.type from file_info, user_file_list where user = 'kevin_666' and file_info.md5 = user_file_list.md5 limit 0, 1 在操作
+[2024-02-25 12:43:16]--[src_cgi/myfiles_cgi.c:428]--{
+	"files":	[{
+			"user":	"kevin_666",
+			"md5":	"19d532887e3745caf22963a08591e4d3",
+			"time":	"2024-02-23 13:54:45",
+			"filename":	"u=2124355208,2311217836&fm=253&fmt=auto&app=138&f=JPEG.webp",
+			"share_status":	0,
+			"pv":	0,
+			"url":	"http://192.168.80.130:8080/group1/M00/00/00/wKhQgmXYMyWAfnURAAAOOBXFhLM59.webp",
+			"size":	3640,
+			"type":	"webp"
+		}]
+}

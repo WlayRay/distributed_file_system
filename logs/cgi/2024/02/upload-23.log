@@ -1,0 +1,8 @@
+[2024-02-23 12:36:47]--[src_cgi/upload_cgi.c:42]--mysql:[user=root,pwd=123456,database=cloud_disk][2024-02-23 12:43:02]--[src_cgi/upload_cgi.c:616]--kevin_666成功上传[u=987351605,130347687&fm=253&fmt=auto&app=120&f=JPEG.webp, 大小：13536, md5码：3f8c2477a93fca99987b379ca74d5e26]到本地
+[2024-02-23 12:43:02]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKhQgmXYIlaAGbtDAAA04AjbOI804.webp] succ!
+[2024-02-23 12:43:02]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.80.130:8080/group1/M00/00/00/wKhQgmXYIlaAGbtDAAA04AjbOI804.webp
+[2024-02-23 12:43:02]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('3f8c2477a93fca99987b379ca74d5e26', 'group1/M00/00/00/wKhQgmXYIlaAGbtDAAA04AjbOI804.webp', 'http://192.168.80.130:8080/group1/M00/00/00/wKhQgmXYIlaAGbtDAAA04AjbOI804.webp', '13536', 'webp', 1) 文件信息插入成功
+[2024-02-23 13:54:45]--[src_cgi/upload_cgi.c:616]--kevin_666成功上传[u=2124355208,2311217836&fm=253&fmt=auto&app=138&f=JPEG.webp, 大小：3640, md5码：19d532887e3745caf22963a08591e4d3]到本地
+[2024-02-23 13:54:45]--[src_cgi/upload_cgi.c:351]--get [group1/M00/00/00/wKhQgmXYMyWAfnURAAAOOBXFhLM59.webp] succ!
+[2024-02-23 13:54:45]--[src_cgi/upload_cgi.c:456]--file url is: http://192.168.80.130:8080/group1/M00/00/00/wKhQgmXYMyWAfnURAAAOOBXFhLM59.webp
+[2024-02-23 13:54:45]--[src_cgi/upload_cgi.c:510]--insert into file_info (md5, file_id, url, size, type, count) values ('19d532887e3745caf22963a08591e4d3', 'group1/M00/00/00/wKhQgmXYMyWAfnURAAAOOBXFhLM59.webp', 'http://192.168.80.130:8080/group1/M00/00/00/wKhQgmXYMyWAfnURAAAOOBXFhLM59.webp', '3640', 'webp', 1) 文件信息插入成功
