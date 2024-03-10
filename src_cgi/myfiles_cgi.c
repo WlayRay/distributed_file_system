@@ -320,7 +320,7 @@ int get_user_filelist(char *cmd, char *user, int start, int count)
         goto END;
     }
 
-    ulong line = 0;
+    unsigned int line = 0;
     //mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
     line = mysql_num_rows(res_set);
     if (line == 0)//没有结果
