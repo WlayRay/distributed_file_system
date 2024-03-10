@@ -3,7 +3,7 @@
  * @brief  共享文件列表展示CGI程序
  * @author Mike
  * @version 2.0
- * @date 2017年3月7日21:46:57
+ * @date 2024年3月7日21:46:57
  */
 
 #include "fcgi_config.h"
@@ -186,7 +186,7 @@ int get_share_filelist(int start, int count)
         goto END;
     }
 
-    ulong line = 0;
+    unsigned int line = 0;
     //mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
     line = mysql_num_rows(res_set);
     if (line == 0)
@@ -427,7 +427,7 @@ int get_ranking_filelist(int start, int count)
             goto END;
         }
 
-        ulong line = 0;
+        unsigned int line = 0;
         //mysql_num_rows接受由mysql_store_result返回的结果结构集，并返回结构集中的行数
         line = mysql_num_rows(res_set);
         if (line == 0)
