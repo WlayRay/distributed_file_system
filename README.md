@@ -1,5 +1,5 @@
 # WlayRay-distributed_file_system
-基于fastdfs的分布式文件系统服务器
+基于fastdfs的分布式文件系统服务器，fastcgi为快速通用网关接口
 
  服务器部署步骤:
  
