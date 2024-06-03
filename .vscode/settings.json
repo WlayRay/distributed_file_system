@@ -2,6 +2,7 @@
     "files.associations": {
         "stdlib.h": "c",
         "timesize.h": "c",
-        "features.h": "c"
+        "features.h": "c",
+        "fcgi_config.h": "c"
     }
 }

@@ -1,10 +1,4 @@
-/**
- * @file dealsharefile_cgi.c
- * @brief  共享文件pv字段处理、取消分享、转存文件cgi程序
- * @author Mike
- * @version 2.0
- * @date 2024年3月8日13:25:07
- */
+// 共享文件pv字段处理、取消分享、转存文件cgi程序
 
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"
@@ -80,7 +74,6 @@ int get_json_info(char *buf, char *user, char *md5, char *filename)
         goto END;
     }
 
-    // LOG(DEALSHAREFILE_LOG_MODULE, DEALSHAREFILE_LOG_PROC, "child1->valuestring = %s\n", child1->valuestring);
     strcpy(user, child1->valuestring); // 拷贝内容
 
     // 文件md5码

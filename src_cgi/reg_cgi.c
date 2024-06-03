@@ -1,10 +1,4 @@
-/**
- * @file reg_cgi.c
- * @brief  注册事件后CGI程序
- * @author Mike
- * @version 2.0
- * @date 2024年2月14日
- */
+// 注册事件的CGI程序
 
 #include "fcgi_config.h"
 #include "fcgi_stdio.h"

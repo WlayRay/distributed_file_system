@@ -123,11 +123,10 @@ int query_parse_key_value(const char *query, const char *key, char *value, int *
     if (temp == NULL)
     {
         // LOG(UTIL_LOG_MODULE, UTIL_LOG_PROC, "Can not find key %s in query\n", key);
-
         return -1;
     }
 
-    temp += strlen(key); //=
+    temp += strlen(key); // =
     temp++;              // value
 
     // get value
